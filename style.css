@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #4c4eaf;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Form Section */
+#registration-form {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 50%;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#registration-form h2 {
+    margin-bottom: 1rem;
+    color:  #4c4eaf;
+}
+
+form label {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color:  #4c4eaf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  #4c4eaf;
+}
+
+/* Table Section */
+#student-list {
+    margin: 2rem auto;
+    width: 80%;
+}
+
+#student-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#student-list th,
+#student-list td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+#student-list th {
+    background-color:  #4c4eaf;
+    color: white;
+}
+
+#student-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#student-list tbody tr:hover {
+    background-color: #ddd;
+}
+
+#student-list button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#student-list .edit {
+    background-color: #ffc107;
+    color: white;
+}
+
+#student-list .delete {
+    background-color: #f44336;
+    color: white;
+}
+
+#student-list button:hover {
+    opacity: 0.9;
+}
